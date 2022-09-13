@@ -1,0 +1,17 @@
+*{margin: 0; padding: 0; box-sizing: border-box}
+.chanBg {
+    width: 100%;
+    padding-top: 50%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.chanBg div {
+    height: 100%;
+    border: 1px solid;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+

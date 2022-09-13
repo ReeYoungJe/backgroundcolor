@@ -7,12 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="homepage.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Javascript Background Color</title>
 </head>
 <body>
     <div>
-        <a href="#" onclick="chan('.click')" class="click"> 버튼 클릭</a>
-        <p></p>
+        <div class="chanBg">
+            <div class="randomColor" style="background: #333;">
+                백그라운드 변경
+            </div>
+        </div>
+        <a href="#" onclick="randomColor()"> 버튼 클릭</a>
+        <p>현재 생상은 ? </p>
     </div>
 </body>
 </html>
