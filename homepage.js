@@ -1,3 +1,3 @@
 function chan (click){
-    $(click).addClas('on');
+    $('p').html('클릭댐');
 }
